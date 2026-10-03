@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EMBER & OAK | Modern Dining & Café</title>
+
+    <meta
+        name="description"
+        content="EMBER & OAK — a modern dining experience built around seasonal ingredients, thoughtful cooking and warm hospitality."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     TOP BAR
+========================= -->
+
+<div class="top-bar">
+    <div class="top-inner">
+        <span>
+            <i class="fa-solid fa-location-dot"></i>
+            18 Oak Street, City Centre
+        </span>
+
+        <span class="top-center">
+            Open Tuesday — Sunday · 12 PM — 11 PM
+        </span>
+
+        <a href="tel:+911234567890">
+            <i class="fa-solid fa-phone"></i>
+            +91 12345 67890
+        </a>
+    </div>
+</div>
+
+
+<!-- =========================
+     NAVBAR
+========================= -->
+
+<header class="navbar" id="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            <span class="logo-mark">E</span>
+
+            <span class="logo-text">
+                <strong>EMBER</strong>
+                <small>& OAK</small>
+            </span>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+
+            <a href="#home">Home</a>
+            <a href="#story">Our Story</a>
+            <a href="#menu">Menu</a>
+            <a href="#experience">Experience</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+
+            <button class="nav-book mobile-book" id="mobileBook">
+                Reserve a Table
+            </button>
+
+        </nav>
+
+        <div class="nav-actions">
+
+            <button
+                class="nav-book desktop-book"
+                id="desktopBook"
+            >
+                Reserve a Table
+            </button>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open menu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-image"></div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <p class="eyebrow light">
+            MODERN DINING · TIMELESS FLAVOUR
+        </p>
+
+        <h1>
+            Good food.<br>
+            <em>Good company.</em>
+        </h1>
+
+        <p class="hero-description">
+            A neighbourhood restaurant where seasonal ingredients,
+            fire-led cooking and warm hospitality come together.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#menu" class="btn btn-light">
+                Explore Our Menu
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <button class="text-button" id="heroBook">
+                Book a Table
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="scroll-indicator">
+        <span>Scroll to explore</span>
+        <div></div>
+    </div>
+
+</section>
+
+
+<!-- =========================
+     INTRO / STORY
+========================= -->
+
+<section class="story section-padding" id="story">
+
+    <div class="container story-grid">
+
+        <div class="story-images reveal">
+
+            <div class="story-image-main">
+                <img
+                    src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1000&q=85"
+                    alt="Elegant restaurant table"
+                >
+            </div>
+
+            <div class="story-image-small">
+                <img
+                    src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&q=85"
+                    alt="Restaurant interior"
+                >
+            </div>
+
+            <div class="experience-badge">
+                <strong>08</strong>
+                <span>Years of<br>hospitality</span>
+            </div>
+
+        </div>
+
+
+        <div class="story-content reveal">
+
+            <p class="eyebrow">
+                OUR STORY
+            </p>
+
+            <h2>
+                From our kitchen<br>
+                <em>to your table.</em>
+            </h2>
+
+            <p class="large-text">
+                EMBER & OAK began with a simple idea — create a place
+                where beautiful food feels effortless and every guest
+                feels genuinely welcome.
+            </p>
+
+            <p>
+                Our kitchen celebrates seasonal produce, thoughtful
+                techniques and flavours inspired by places we love.
+                From slow-cooked classics to fresh plates designed
+                for sharing, everything is prepared with intention.
+            </p>
+
+            <div class="signature">
+                <div class="signature-line"></div>
+                <span>Made with care, served with warmth.</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     STATS
+========================= -->
+
+<section class="stats-section">
+
+    <div class="container stats-grid">
+
+        <div class="stat">
+            <strong>08</strong>
+            <span>Years of<br>craft</span>
+        </div>
+
+        <div class="stat">
+            <strong>32</strong>
+            <span>Seasonal<br>dishes</span>
+        </div>
+
+        <div class="stat">
+            <strong>14</strong>
+            <span>Local<br>suppliers</span>
+        </div>
+
+        <div class="stat">
+            <strong>4.9</strong>
+            <span>Guest<br>rating</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     MENU
+========================= -->
+
+<section class="menu-section section-padding" id="menu">
+
+    <div class="container">
+
+        <div class="section-heading center reveal">
+
+            <p class="eyebrow">
+                THE MENU
+            </p>
+
+            <h2>
+                Made for the<br>
+                <em>moment.</em>
+            </h2>
+
+            <p>
+                A carefully curated selection of seasonal plates,
+                comforting classics and handcrafted drinks.
+            </p>
+
+        </div>
+
+
+        <div class="menu-tabs">
+
+            <button class="menu-tab active" data-category="all">
+                All
+            </button>
+
+            <button class="menu-tab" data-category="starters">
+                Starters
+            </button>
+
+            <button class="menu-tab" data-category="mains">
+                Mains
+            </button>
+
+            <button class="menu-tab" data-category="desserts">
+                Desserts
+            </button>
+
+            <button class="menu-tab" data-category="drinks">
+                Drinks
+            </button>
+
+        </div>
+
+
+        <div class="menu-grid">
+
+
+            <!-- ITEM 1 -->
+
+            <article class="menu-card reveal" data-category="starters">
+
+                <div class="menu-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=85"
+                        alt="Roasted vegetable bowl"
+                    >
+
+                    <span class="menu-tag">
+                        Chef's Pick
+                    </span>
+
+                </div>
+
+                <div class="menu-info">
+
+                    <div class="menu-title">
+                        <h3>Garden Roast</h3>
+                        <span>₹495</span>
+                    </div>
+
+                    <p>
+                        Charred seasonal vegetables, whipped feta,
+                        herbs and toasted seeds.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- ITEM 2 -->
+
+            <article class="menu-card reveal" data-category="starters">
+
+                <div class="menu-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=85"
+                        alt="Fresh seasonal starter"
+                    >
+
+                </div>
+
+                <div class="menu-info">
+
+                    <div class="menu-title">
+                        <h3>Oakhouse Salad</h3>
+                        <span>₹425</span>
+                    </div>
+
+                    <p>
+                        Crisp greens, roasted pear, walnuts,
+                        goat cheese and honey dressing.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- ITEM 3 -->
+
+            <article class="menu-card reveal" data-category="mains">
+
+                <div class="menu-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=85"
+                        alt="Creamy pasta"
+                    >
+
+                    <span class="menu-tag">
+                        Popular
+                    </span>
+
+                </div>
+
+                <div class="menu-info">
+
+                    <div class="menu-title">
+                        <h3>Truffle Tagliatelle</h3>
+                        <span>₹695</span>
+                    </div>
+
+                    <p>
+                        Handmade pasta, wild mushrooms,
+                        parmesan and black truffle oil.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- ITEM 4 -->
+
+            <article class="menu-card reveal" data-category="mains">
+
+                <div class="menu-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=85"
+                        alt="Grilled steak"
+                    >
+
+                </div>
+
+                <div class="menu-info">
+
+                    <div class="menu-title">
+                        <h3>Ember Grilled Steak</h3>
+                        <span>₹1,295</span>
+                    </div>
+
+                    <p>
+                        Charcoal grilled cut, roasted potatoes,
+                        greens and house pepper jus.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- ITEM 5 -->
+
+            <article class="menu-card reveal" data-category="mains">
+
+                <div class="menu-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=85"
+                        alt="Gourmet pizza"
+                    >
+
+                </div>
+
+                <div class="menu-info">
+
+                    <div class="menu-title">
+                        <h3>Oakwood Pizza</h3>
+                        <span>₹625</span>
+                    </div>
+
+                    <p>
+                        Slow-fermented dough, tomato, mozzarella,
+                        basil and roasted garlic.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- ITEM 6 -->
+
+            <article class="menu-card reveal" data-category="desserts">
+
+                <div class="menu-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=85"
+                        alt="Chocolate dessert"
+                    >
+
+                </div>
+
+                <div class="menu-info">
+
+                    <div class="menu-title">
+                        <h3>Dark Chocolate Tart</h3>
+                        <span>₹395</span>
+                    </div>
+
+                    <p>
+                        70% dark chocolate, sea salt,
+                        vanilla cream and cocoa crumble.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- ITEM 7 -->
+
+            <article class="menu-card reveal" data-category="desserts">
+
+                <div class="menu-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=85"
+                        alt="Elegant dessert"
+                    >
+
+                </div>
+
+                <div class="menu-info">
+
+                    <div class="menu-title">
+                        <h3>Berry Pavlova</h3>
+                        <span>₹365</span>
+                    </div>
+
+                    <p>
+                        Crisp meringue, vanilla cream,
+                        fresh berries and citrus zest.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- ITEM 8 -->
+
+            <article class="menu-card reveal" data-category="drinks">
+
+                <div class="menu-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=85"
+                        alt="Specialty coffee"
+                    >
+
+                </div>
+
+                <div class="menu-info">
+
+                    <div class="menu-title">
+                        <h3>Oak Cold Brew</h3>
+                        <span>₹295</span>
+                    </div>
+
+                    <p>
+                        Slow-steeped coffee, orange peel,
+                        vanilla and a touch of brown sugar.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <div class="menu-note">
+            <span>All prices are inclusive of applicable taxes.</span>
+
+            <button id="viewFullMenu">
+                View Full Menu
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FEATURED DISH
+========================= -->
+
+<section class="featured-section">
+
+    <div class="featured-image">
+        <img
+            src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1400&q=90"
+            alt="Chef's seasonal dish"
+        >
+    </div>
+
+    <div class="featured-content">
+
+        <p class="eyebrow">
+            FROM THE KITCHEN
+        </p>
+
+        <h2>
+            The dish that<br>
+            <em>started it all.</em>
+        </h2>
+
+        <p>
+            Our signature roasted seasonal plate changes with the
+            harvest. The idea stays the same — simple ingredients,
+            big flavour and a little bit of fire.
+        </p>
+
+        <div class="featured-price">
+            <span>Seasonal Plate</span>
+            <strong>₹595</strong>
+        </div>
+
+        <button class="outline-btn" id="featuredOrder">
+            Ask about today's special
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     EXPERIENCE
+========================= -->
+
+<section class="experience-section section-padding" id="experience">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="eyebrow">
+                THE EXPERIENCE
+            </p>
+
+            <h2>
+                More than<br>
+                <em>a meal.</em>
+            </h2>
+
+        </div>
+
+
+        <div class="experience-grid">
+
+            <div class="experience-card reveal">
+
+                <span class="experience-number">01</span>
+
+                <i class="fa-solid fa-fire-flame-curved"></i>
+
+                <h3>Fire-led cooking</h3>
+
+                <p>
+                    We use flame, smoke and slow cooking to build
+                    depth into simple ingredients.
+                </p>
+
+            </div>
+
+
+            <div class="experience-card reveal">
+
+                <span class="experience-number">02</span>
+
+                <i class="fa-solid fa-leaf"></i>
+
+                <h3>Seasonal produce</h3>
+
+                <p>
+                    Our menu evolves with the seasons and the
+                    farmers who grow our ingredients.
+                </p>
+
+            </div>
+
+
+            <div class="experience-card reveal">
+
+                <span class="experience-number">03</span>
+
+                <i class="fa-solid fa-wine-glass"></i>
+
+                <h3>Warm hospitality</h3>
+
+                <p>
+                    From the first hello to the last coffee,
+                    every detail is designed around you.
+                </p>
+
+            </div>
+
+
+            <div class="experience-card reveal">
+
+                <span class="experience-number">04</span>
+
+                <i class="fa-solid fa-music"></i>
+
+                <h3>Good atmosphere</h3>
+
+                <p>
+                    Soft lighting, carefully chosen music and
+                    a space made for staying a little longer.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     GALLERY
+========================= -->
+
+<section class="gallery-section" id="gallery">
+
+    <div class="gallery-header container">
+
+        <div>
+            <p class="eyebrow">
+                A GLIMPSE INSIDE
+            </p>
+
+            <h2>
+                Come as you are.<br>
+                <em>Stay awhile.</em>
+            </h2>
+        </div>
+
+        <p>
+            A little look at our kitchen, tables and
+            everything in between.
+        </p>
+
+    </div>
+
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item gallery-large">
+            <img
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=90"
+                alt="Restaurant interior"
+            >
+            <button class="gallery-open" aria-label="Open image">
+                <i class="fa-solid fa-expand"></i>
+            </button>
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=900&q=90"
+                alt="Dining table"
+            >
+            <button class="gallery-open" aria-label="Open image">
+                <i class="fa-solid fa-expand"></i>
+            </button>
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=90"
+                alt="Fresh pasta"
+            >
+            <button class="gallery-open" aria-label="Open image">
+                <i class="fa-solid fa-expand"></i>
+            </button>
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=90"
+                alt="Restaurant dish"
+            >
+            <button class="gallery-open" aria-label="Open image">
+                <i class="fa-solid fa-expand"></i>
+            </button>
+        </div>
+
+        <div class="gallery-item gallery-wide">
+            <img
+                src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1400&q=90"
+                alt="Restaurant ambience"
+            >
+            <button class="gallery-open" aria-label="Open image">
+                <i class="fa-solid fa-expand"></i>
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     TESTIMONIAL
+========================= -->
+
+<section class="testimonial-section">
+
+    <div class="container">
+
+        <p class="eyebrow center">
+            GUEST NOTES
+        </p>
+
+        <div class="testimonial-slider">
+
+            <button class="slider-btn previous" id="previousReview">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+
+            <div class="testimonial-content">
+
+                <div class="stars">
+                    ★ ★ ★ ★ ★
+                </div>
+
+                <blockquote id="reviewText">
+                    “Beautiful atmosphere, thoughtful food and
+                    genuinely warm service. It feels like one of
+                    those places you discover and immediately want
+                    to keep to yourself.”
+                </blockquote>
+
+                <div class="review-author" id="reviewAuthor">
+                    — Ananya M.
+                </div>
+
+            </div>
+
+            <button class="slider-btn next" id="nextReview">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CHEF
+========================= -->
+
+<section class="chef-section section-padding">
+
+    <div class="container chef-grid">
+
+        <div class="chef-content reveal">
+
+            <p class="eyebrow">
+                BEHIND THE PLATE
+            </p>
+
+            <h2>
+                Cooking with<br>
+                <em>curiosity.</em>
+            </h2>
+
+            <p>
+                Our kitchen is led by a small team of cooks who believe
+                great food doesn't need to be complicated. It needs
+                good ingredients, patience and a reason to exist.
+            </p>
+
+            <p>
+                Every menu is tested, tasted and refined before it
+                reaches your table.
+            </p>
+
+            <div class="chef-signature">
+                <span>Chef's Table</span>
+                <strong>EMBER & OAK</strong>
+            </div>
+
+        </div>
+
+
+        <div class="chef-image reveal">
+
+            <img
+                src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=1000&q=90"
+                alt="Chef preparing food"
+            >
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     RESERVATION CTA
+========================= -->
+
+<section class="reservation-cta">
+
+    <div class="reservation-overlay"></div>
+
+    <div class="container reservation-content">
+
+        <p class="eyebrow light">
+            YOUR TABLE AWAITS
+        </p>
+
+        <h2>
+            Make tonight<br>
+            <em>something special.</em>
+        </h2>
+
+        <p>
+            Join us for dinner, drinks, celebrations or simply
+            a good meal with good people.
+        </p>
+
+        <button class="btn btn-light" id="ctaBook">
+            Reserve a Table
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================= -->
+
+<section class="contact-section section-padding" id="contact">
+
+    <div class="container contact-grid">
+
+        <div class="contact-info reveal">
+
+            <p class="eyebrow">
+                FIND US
+            </p>
+
+            <h2>
+                Come say<br>
+                <em>hello.</em>
+            </h2>
+
+            <div class="contact-details">
+
+                <div class="contact-detail">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <div>
+                        <span>Address</span>
+                        <p>
+                            18 Oak Street,<br>
+                            City Centre, India
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    <i class="fa-solid fa-clock"></i>
+
+                    <div>
+                        <span>Opening Hours</span>
+                        <p>
+                            Tuesday — Sunday<br>
+                            12:00 PM — 11:00 PM
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <div>
+                        <span>Reservations</span>
+                        <p>
+                            +91 12345 67890<br>
+                            hello@emberandoak.com
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="map-placeholder reveal">
+
+            <div class="map-pattern"></div>
+
+            <div class="map-card">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <h3>EMBER & OAK</h3>
+
+                <p>
+                    18 Oak Street<br>
+                    City Centre
+                </p>
+
+                <button id="directionsBtn">
+                    Get Directions
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     NEWSLETTER
+========================= -->
+
+<section class="newsletter">
+
+    <div class="container newsletter-inner">
+
+        <div>
+
+            <p class="eyebrow">
+                STAY IN THE LOOP
+            </p>
+
+            <h2>
+                Good things are<br>
+                <em>worth hearing about.</em>
+            </h2>
+
+        </div>
+
+
+        <form class="newsletter-form" id="newsletterForm">
+
+            <div class="input-wrapper">
+
+                <input
+                    type="email"
+                    id="newsletterEmail"
+                    placeholder="Your email address"
+                    required
+                >
+
+                <button type="submit">
+                    Subscribe
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+            <small>
+                New menus, special evenings and occasional surprises.
+            </small>
+
+        </form>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+
+            <a href="#home" class="logo footer-logo">
+
+                <span class="logo-mark">E</span>
+
+                <span class="logo-text">
+                    <strong>EMBER</strong>
+                    <small>& OAK</small>
+                </span>
+
+            </a>
+
+            <p>
+                Modern dining rooted in good ingredients,
+                thoughtful cooking and warm hospitality.
+            </p>
+
+            <div class="social-links">
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="X">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Explore</h4>
+
+            <a href="#story">Our Story</a>
+            <a href="#menu">Menu</a>
+            <a href="#experience">Experience</a>
+            <a href="#gallery">Gallery</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Visit</h4>
+
+            <span>Tuesday — Sunday</span>
+            <span>12 PM — 11 PM</span>
+            <span>18 Oak Street</span>
+            <span>City Centre</span>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Contact</h4>
+
+            <a href="tel:+911234567890">
+                +91 12345 67890
+            </a>
+
+            <a href="mailto:hello@emberandoak.com">
+                hello@emberandoak.com
+            </a>
+
+            <button class="footer-reserve" id="footerBook">
+                Reserve a Table
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+        <span>
+            © 2026 EMBER & OAK. All rights reserved.
+        </span>
+
+        <span>
+            Crafted with intention.
+        </span>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================
+     RESERVATION MODAL
+========================= -->
+
+<div class="modal" id="reservationModal">
+
+    <div class="modal-overlay" id="modalOverlay"></div>
+
+    <div class="reservation-modal">
+
+        <button
+            class="modal-close"
+            id="modalClose"
+            aria-label="Close reservation form"
+        >
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+
+        <div class="modal-heading">
+
+            <p class="eyebrow">
+                RESERVATIONS
+            </p>
+
+            <h2>
+                Your table<br>
+                <em>is waiting.</em>
+            </h2>
+
+            <p>
+                Fill in your details and we'll prepare the table.
+            </p>
+
+        </div>
+
+
+        <form id="reservationForm">
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="guestName">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="guestName"
+                        placeholder="Your name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="guestPhone">
+                        Phone
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="guestPhone"
+                        placeholder="+91"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="bookingDate">
+                        Date
+                    </label>
+
+                    <input
+                        type="date"
+                        id="bookingDate"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="bookingTime">
+                        Time
+                    </label>
+
+                    <select id="bookingTime" required>
+
+                        <option value="">
+                            Select time
+                        </option>
+
+                        <option>12:30 PM</option>
+                        <option>1:00 PM</option>
+                        <option>1:30 PM</option>
+                        <option>7:00 PM</option>
+                        <option>7:30 PM</option>
+                        <option>8:00 PM</option>
+                        <option>8:30 PM</option>
+                        <option>9:00 PM</option>
+                        <option>9:30 PM</option>
+                        <option>10:00 PM</option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="guestCount">
+                    Guests
+                </label>
+
+                <select id="guestCount" required>
+
+                    <option value="">
+                        Number of guests
+                    </option>
+
+                    <option>1 Guest</option>
+                    <option>2 Guests</option>
+                    <option>3 Guests</option>
+                    <option>4 Guests</option>
+                    <option>5 Guests</option>
+                    <option>6 Guests</option>
+                    <option>7+ Guests</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="specialRequest">
+                    Special request
+                    <span>Optional</span>
+                </label>
+
+                <textarea
+                    id="specialRequest"
+                    placeholder="Birthday, anniversary, dietary request..."
+                    rows="3"
+                ></textarea>
+
+            </div>
+
+
+            <button class="modal-submit" type="submit">
+
+                Request Reservation
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+            <small class="demo-note">
+                * This is a website demo. No real reservation is submitted.
+            </small>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     LIGHTBOX
+========================= -->
+
+<div class="lightbox" id="lightbox">
+
+    <button id="lightboxClose">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <img id="lightboxImage" src="" alt="Gallery preview">
+
+</div>
+
+
+<!-- =========================
+     TOAST
+========================= -->
+
+<div class="toast" id="toast">
+
+    <i class="fa-solid fa-circle-check"></i>
+
+    <span id="toastMessage">
+        Done!
+    </span>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
